@@ -1,6 +1,6 @@
 const dayOfTheWeek = (date = new Date()) => {
   const days = [
-    "Sunday",
+    "Neděle",
     "Pondělí",
     "Tuesday",
     "Wednesday",
@@ -14,6 +14,6 @@ const dayOfTheWeek = (date = new Date()) => {
 
 try {
   document.getElementById("day").innerText = dayOfTheWeek();
-} catch (err) {}
+} catch (err) { }
 
 exports.dayOfTheWeek = dayOfTheWeek;
