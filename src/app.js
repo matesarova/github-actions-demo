@@ -2,7 +2,7 @@ const dayOfTheWeek = (date = new Date()) => {
   const days = [
     "Neděle",
     "Pondělí",
-    "Tuesday",
+    "Úterý",
     "Wednesday",
     "Thursday",
     "Friday",
