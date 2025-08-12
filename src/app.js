@@ -1,13 +1,7 @@
+const data = require("./data.json");
+
 const dayOfTheWeek = (date = new Date()) => {
-  const days = [
-    "Neděle",
-    "Pondělí",
-    "Úterý",
-    "Středa",
-    "Čtvrtek",
-    "Pátek",
-    "Sobota",
-  ];
+  const days = data.days;
 
   return days[date.getDay()];
 };
